@@ -71,7 +71,7 @@ it into Morse Code.
 
 def main(arg):
     try:
-        assert len(arg) == 2, "AssertionError: the arguments are bad test"
+        assert len(arg) == 2, "AssertionError: the arguments are bad"
         assert check_char(arg[1]), "AssertionError: the arguments are bad"
     except AssertionError as e:
         print(e)
